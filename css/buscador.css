@@ -1,0 +1,14 @@
+.titulos{
+    margin: 30px;
+    display: flex;
+    background-color: #ffffff;
+    width: 890px;
+
+}
+.datos{
+    display: block;
+    
+}
+h2{
+    color: white;
+}
