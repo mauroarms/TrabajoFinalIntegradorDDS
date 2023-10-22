@@ -26,21 +26,6 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Producciones en Curso
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Produccion 1</a></li>
-                      <li><a class="dropdown-item" href="#">Produccion 2</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Produccion 4</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar produccion" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
               </div>
             </div>
         </nav>
@@ -56,9 +41,8 @@
                 
                   <h3 class="mx-5">Fecha: <br> <span>21/10/2023</span></h3></li>
                   <h3 class="mx-5">Operador: <br> <span>Walter White</span></h3></li>
-                  <h3 class="mx-5">Maquina:  <br> <span>CAT-627</span></h3></li>
-                  <h3 class="mx-5">Malla: <br> <span>1445-54-1</span></h3></li>
-                  <h3 class="mx-5">Pozos: <br> <span>800</span></h3></li>  
+                  <h3 class="mx-5">Maquina:  <br> <span>1789</span></h3></li>
+                  <h3 class="mx-5">Malla: <br> <span>4-1523-856</span></h3></li>
               
             </div>
 
@@ -185,87 +169,265 @@
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <div>
-                <h3>Estado Inicial</h3>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>ID Perforador</th>
-                      <th>Descripcion</th>
-                      <th>Serie</th>
-                      <th>Tipo</th>
-                      <th>Marca</th>
-                      <th>Tamaño</th>
-                      <th>Total</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td><strong>546</strong></td>
-                      <td>15:45</td>
-                      <td>15:45</td>
-                      <td>10 mts</td>
-                    </tr>
-                    <tr>
-                      <td><strong>547</strong></td>
-                      <td>15:45</td>
-                      <td>15:45</td>
-                      <td>10 mts</td>
-                    </tr>
-                    <tr>
-                      <td><strong>548</strong></td>
-                      <td>15:45</td>
-                      <td>15:45</td>
-                      <td>10 mts</td>
-                    </tr>
-                    <tr>
-                      <td><strong>549</strong></td>
-                      <td>15:45</td>
-                      <td>15:45</td>
-                      <td>10 mts</td>
-                    </tr>					
-                    <tr>
-                      <td><strong>...</strong></td>
-                      <td>...</td>
-                      <td>...</td>
-                      <td>...</td>
-                    </tr>					
-      
-                  </tbody>
-               </table>
-              </div>
-              <div>
-                <h3>Resumen</h3>
-                <table>
-                  <thead>
-                    <tr>
-                      <td></td>
-                      <th>Inicio</th>
-                      <th>Nuevo</th>
+              <h3 class="text-center">Estados de Elementos de Perforadora</h3>
 
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th>HOROMETRO</th>
-                      <td><strong>546</strong></td>
-                      <td>15:45</td>
+              <div class="w-100">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Tricono:</h4>
+                      <table>
+                        <thead>
+                          <tr>
+                            <td></td>
+                            <th>ID Perforador</th>
+                            <th>Turno</th>
+                            <th>Total</th>
+                            <th>Tamaño</th>
+                            <th>Marca</th>
+                            <th>Tipo</th>
+                            <th>Serie</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th><strong>INICIO</strong></th>
+                            <td><strong>546</strong></td>
+                            <td>94</td>
+                            <td>703</td>
+                            <td>7</td>
+                            <td>Varel</td>
+                            <td>RB70</td>
+                            <td>1659036</td>
 
-                    </tr>
-                    <tr>
-                      <th>GAS OIL (Lts)</th>
-                      <td colspan="2"><strong>10</strong></td>
+                          </tr>
+                          <tr>
+                            <th><strong>Uso</strong></th>
+                            <td><strong>546</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <th><strong>Nuevo</strong></th>
+                            <td><strong>546</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>			
+            
+                        </tbody>
+                     </table>
+                    </div>
 
-                    </tr>
-                    <tr>
-                      <th>METROS</th>
-                      <td colspan="2"><strong>5400</strong></td>
+                
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Amortiguador:</h4>
+                      <table>
+                        <thead>
+                          <tr>
+                            <td></td>
+                            <th>ID Perforador</th>
+                            <th>Turno</th>
+                            <th>Total</th>
+                            <th>Tamaño</th>
+                            <th>Marca</th>
+                            <th>Tipo</th>
+                            <th>Serie</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th><strong>INICIO</strong></th>
+                            <td><strong>546</strong></td>
+                            <td>94</td>
+                            <td>703</td>
+                            <td>7</td>
+                            <td>Varel</td>
+                            <td>RB70</td>
+                            <td>1659036</td>
 
-                    </tr>								
-      
-                  </tbody>
-                </table>
-              </div>
+                          </tr>
+                          <tr>
+                            <th><strong>Uso</strong></th>
+                            <td><strong>589</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <th><strong>Nuevo</strong></th>
+                            <td><strong>589</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>			
+            
+                        </tbody>
+                     </table>
+                    </div>
+
+                
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Barras:</h4>
+                      <table>
+                        <thead>
+                          <tr>
+                            <td></td>
+                            <th>ID Perforador</th>
+                            <th>Turno</th>
+                            <th>Total</th>
+                            <th>Tamaño</th>
+                            <th>Marca</th>
+                            <th>Tipo</th>
+                            <th>Serie</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th><strong>INICIO</strong></th>
+                            <td><strong>546</strong></td>
+                            <td>94</td>
+                            <td>703</td>
+                            <td>7</td>
+                            <td>Varel</td>
+                            <td>RB70</td>
+                            <td>1659036</td>
+
+                          </tr>
+                          <tr>
+                            <th><strong>Uso</strong></th>
+                            <td><strong>876</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <th><strong>Nuevo</strong></th>
+                            <td><strong>876</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>			
+            
+                        </tbody>
+                     </table>
+                    </div>
+
+                
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Adaptadores:</h4>
+                      <table>
+                        <thead>
+                          <tr>
+                            <td></td>
+                            <th>ID Perforador</th>
+                            <th>Turno</th>
+                            <th>Total</th>
+                            <th>Tamaño</th>
+                            <th>Marca</th>
+                            <th>Tipo</th>
+                            <th>Serie</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th><strong>INICIO</strong></th>
+                            <td><strong>546</strong></td>
+                            <td>94</td>
+                            <td>703</td>
+                            <td>7</td>
+                            <td>Varel</td>
+                            <td>RB70</td>
+                            <td>1659036</td>
+
+                          </tr>
+                          <tr>
+                            <th><strong>Uso</strong></th>
+                            <td><strong>143</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                          <tr>
+                            <th><strong>Nuevo</strong></th>
+                            <td><strong>143</strong></td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>			
+            
+                        </tbody>
+                     </table>
+                    </div>
+
+                
+                  </div>
+                  
+                </div>
+
+                <h3 class="text-center mt-5">RESUMEN</h3>               
+                <div>
+                  <table>
+                    <thead>
+                      <tr>
+                        <td></td>
+                        <th>Inicio</th>
+                        <th>Nuevo</th>
+  
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>HOROMETRO</th>
+                        <td><strong>71954.4</strong></td>
+                        <td>...</td>
+  
+                      </tr>
+                      <tr>
+                        <th>GAS OIL (Lts)</th>
+                        
+                        <td colspan="2" class="text-center">...</td>
+  
+                      </tr>
+                      <tr>
+                        <th>METROS TOTALES</th>
+                        <td colspan="2"class="text-center">...</td>
+  
+                      </tr>								
+        
+                    </tbody>
+                  </table>
+                </div>
 
             </div>
           </div>
@@ -275,26 +437,6 @@
 
     </main>    
 
-    
-    <footer class=" mt-3 bg-body-tertiary">
-        <div class="container ">
-            <div class="d-flex">
-                <div class="spinner-border text-primary m-1" role="status">
-                    <span class="visually-hidden">Loading...</span>
-                </div>
-                <h3 class="mx-3">Pozos Realizados: <span>100/800</span></h3>
-            </div>
-            
-            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar" style="width: 12.5%">12.5%</div>
-            </div>          
-            
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
-                <button type="button" class="btn btn-secondary "><a href="./informeVoladura.html">Generar informe de voladura</a></button>
-            </div>
-
-        </div>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
